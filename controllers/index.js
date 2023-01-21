@@ -1,4 +1,4 @@
-const schemas = require('../models/shemas.js');
+const schemas = require('../models/schemas.js');
 
 module.exports = {
     getHome: async(req,res) =>{
