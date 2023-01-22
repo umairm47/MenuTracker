@@ -24,7 +24,7 @@ module.exports = {
             })
         } else {
             q='Search'
-            let menuResult = await menu.find(())
+            let menuResult = await menu.find((qry))
             .then((data)=>{
                 menuData=data
             })
